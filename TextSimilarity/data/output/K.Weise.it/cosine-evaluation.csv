@@ -1,0 +1,31 @@
+Topic, Languages, Max value, Length of L1, Length of L2, %L1, %L2, Diagonal>=2, Diagonal >=3, Diagonal>=4, Diagonal>=5
+Sacra Tunica,it.de,0.790569415042095,35,58,85.71428571428571,51.724137931034484,yes,yes,yes,yes
+Sacra Tunica,it.en,0.7506518906054691,35,53,5.714285714285714,3.7735849056603774,yes,no,no,no
+Valerio di Treviri,it.de,0.0,4,3,0.0,0.0,no,no,no,no
+Valerio di Treviri,it.en,0.2964997266644405,4,10,50.0,20.0,yes,no,no,no
+Egberto di Treviri,it.de,1.0,10,18,80.0,44.44444444444444,yes,yes,yes,yes
+Egberto di Treviri,it.fr,0.3563483225498992,10,7,50.0,71.42857142857143,yes,yes,yes,yes
+Egberto di Treviri,it.en,0.8660254037844387,10,9,60.0,77.77777777777779,yes,yes,yes,yes
+Gozzelino di Toul,it.fr,0.7559289460184544,6,8,66.66666666666666,50.0,yes,yes,yes,no
+Gozzelino di Toul,it.en,0.5916079783099616,6,7,83.33333333333334,71.42857142857143,yes,yes,no,no
+Goerico di Metz,it.fr,1.0,18,20,77.77777777777779,70.0,yes,yes,yes,yes
+Goerico di Metz,it.en,0.674199862463242,18,12,11.11111111111111,16.666666666666664,yes,no,no,no
+Colonna di Igel,it.de,1.0,40,48,82.5,68.75,yes,yes,yes,yes
+Chiesa di Nostra Signora (Treviri),it.de,0.7252406676228423,33,41,90.9090909090909,73.17073170731707,yes,yes,yes,yes
+Chiesa di Nostra Signora (Treviri),it.fr,0.0,33,5,0.0,0.0,no,no,no,no
+Maiestas Domini,it.de,0.6240377207533828,13,20,84.61538461538461,55.00000000000001,yes,yes,yes,yes
+Maiestas Domini,it.en,0.0,13,34,0.0,0.0,no,no,no,no
+Aldetrude di Maubeuge,it.de,0.2727272727272727,3,11,66.66666666666666,18.181818181818183,yes,no,no,no
+Aldetrude di Maubeuge,it.fr,0.0,3,3,0.0,0.0,no,no,no,no
+Gerardo di Toul,it.en,0.0,16,8,0.0,0.0,no,no,no,no
+Duomo di Treviri,it.de,0.7276068751089989,20,146,65.0,8.904109589041095,yes,yes,yes,yes
+Duomo di Treviri,it.en,0.6761234037828131,20,13,15.0,23.076923076923077,yes,yes,no,no
+Materno di Colonia,it.de,0.629940788348712,26,16,30.76923076923077,50.0,yes,yes,yes,yes
+Materno di Colonia,it.fr,0.6804138174397718,26,18,30.76923076923077,44.44444444444444,yes,yes,no,no
+Materno di Colonia,it.en,0.25819888974716115,26,12,7.6923076923076925,16.666666666666664,yes,no,no,no
+Eucario di Treviri,it.de,0.7071067811865475,6,10,66.66666666666666,40.0,yes,yes,yes,no
+Eucario di Treviri,it.en,0.0,6,29,0.0,0.0,no,no,no,no
+Massimino di Treviri,it.de,0.9128709291752769,13,16,92.3076923076923,75.0,yes,yes,yes,yes
+Massimino di Treviri,it.en,0.20412414523193154,13,18,15.384615384615385,11.11111111111111,yes,no,no,no
+Reinilde di Saints,it.de,0.0,7,8,0.0,0.0,no,no,no,no
+Reinilde di Saints,it.en,0.7112867591590193,7,17,85.71428571428571,35.294117647058826,yes,yes,yes,yes

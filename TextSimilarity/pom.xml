@@ -1,0 +1,262 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>unitn.it</groupId>
+	<artifactId>TextSimilarity</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>TextSimilarity</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.dkpro.similarity</groupId>
+			<artifactId>dkpro-similarity-uima-core-asl</artifactId>
+			<version>2.2.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.dkpro.similarity/dkpro-similarity-algorithms-lexical-asl -->
+		<dependency>
+			<groupId>org.dkpro.similarity</groupId>
+			<artifactId>dkpro-similarity-algorithms-lexical-asl</artifactId>
+			<version>2.2.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.dkpro.similarity/dkpro-similarity-uima-io-asl -->
+		<dependency>
+			<groupId>org.dkpro.similarity</groupId>
+			<artifactId>dkpro-similarity-uima-io-asl</artifactId>
+			<version>2.2.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.dkpro.similarity/dkpro-similarity-ml-core-gpl -->
+		<dependency>
+			<groupId>org.dkpro.similarity</groupId>
+			<artifactId>dkpro-similarity-ml-core-gpl</artifactId>
+			<version>2.2.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.dkpro.similarity/dkpro-similarity-algorithms-vsm-asl -->
+		<dependency>
+			<groupId>org.dkpro.similarity</groupId>
+			<artifactId>dkpro-similarity-algorithms-vsm-asl</artifactId>
+			<version>2.2.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.dkpro.similarity/dkpro-similarity-uima-api-asl -->
+		<dependency>
+			<groupId>org.dkpro.similarity</groupId>
+			<artifactId>dkpro-similarity-uima-api-asl</artifactId>
+			<version>2.2.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.dkpro.similarity/dkpro-similarity-uima-core-asl -->
+		<dependency>
+			<groupId>org.dkpro.similarity</groupId>
+			<artifactId>dkpro-similarity-uima-core-asl</artifactId>
+			<version>2.2.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.dkpro.similarity/dkpro-similarity-algorithms-api-asl -->
+		<dependency>
+			<groupId>org.dkpro.similarity</groupId>
+			<artifactId>dkpro-similarity-algorithms-api-asl</artifactId>
+			<version>2.2.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+			<artifactId>de.tudarmstadt.ukp.dkpro.core-gpl</artifactId>
+			<version>1.8.0</version>
+			<type>pom</type>
+			<scope>import</scope>
+		</dependency>
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+			<artifactId>de.tudarmstadt.ukp.dkpro.core.api.segmentation-asl</artifactId>
+			<version>1.7.0</version>
+		</dependency>
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+			<artifactId>de.tudarmstadt.ukp.dkpro.core.stanfordnlp-gpl</artifactId>
+			<version>1.7.0</version>
+		</dependency>
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+			<artifactId>de.tudarmstadt.ukp.dkpro.core.stanfordnlp-gpl</artifactId>
+			<version>1.8.0</version>
+		</dependency>
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+			<artifactId>de.tudarmstadt.ukp.dkpro.core.io.text-asl</artifactId>
+			<version>1.7.0</version>
+		</dependency>
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+			<artifactId>de.tudarmstadt.ukp.dkpro.core.api.segmentation-asl</artifactId>
+			<version>1.8.0</version>
+		</dependency>
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+			<artifactId>de.tudarmstadt.ukp.dkpro.core.api.io-asl</artifactId>
+			<version>1.8.0</version>
+		</dependency>
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+			<artifactId>de.tudarmstadt.ukp.dkpro.core.api.ner-asl</artifactId>
+			<version>1.8.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/de.tudarmstadt.ukp.dkpro.core/de.tudarmstadt.ukp.dkpro.core.api.segmentation-asl -->
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+			<artifactId>de.tudarmstadt.ukp.dkpro.core.api.segmentation-asl</artifactId>
+			<version>1.8.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.uima</groupId>
+			<artifactId>uimaj-json</artifactId>
+			<version>2.8.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.googlecode.json-simple</groupId>
+			<artifactId>json-simple</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+			<artifactId>de.tudarmstadt.ukp.dkpro.core.stopwordremover-asl</artifactId>
+			<version>1.8.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/de.tudarmstadt.ukp.dkpro.core/de.tudarmstadt.ukp.dkpro.core.tokit-asl -->
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+			<artifactId>de.tudarmstadt.ukp.dkpro.core.tokit-asl</artifactId>
+			<version>1.8.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/de.tudarmstadt.ukp.dkpro.core/de.tudarmstadt.ukp.dkpro.core.opennlp-asl -->
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+			<artifactId>de.tudarmstadt.ukp.dkpro.core.opennlp-asl</artifactId>
+			<version>1.8.0</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/de.tudarmstadt.ukp.wikipedia/de.tudarmstadt.ukp.wikipedia.util -->
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.wikipedia</groupId>
+			<artifactId>de.tudarmstadt.ukp.wikipedia.util</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/de.tudarmstadt.ukp.wikipedia/de.tudarmstadt.ukp.wikipedia.wikimachine -->
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.wikipedia</groupId>
+			<artifactId>de.tudarmstadt.ukp.wikipedia.wikimachine</artifactId>
+			<version>1.1.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/de.tudarmstadt.ukp.wikipedia/de.tudarmstadt.ukp.wikipedia.datamachine -->
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.wikipedia</groupId>
+			<artifactId>de.tudarmstadt.ukp.wikipedia.datamachine</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/de.tudarmstadt.ukp.wikipedia/de.tudarmstadt.ukp.wikipedia.timemachine -->
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.wikipedia</groupId>
+			<artifactId>de.tudarmstadt.ukp.wikipedia.timemachine</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/de.tudarmstadt.ukp.wikipedia/de.tudarmstadt.ukp.wikipedia.api -->
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.wikipedia</groupId>
+			<artifactId>de.tudarmstadt.ukp.wikipedia.api</artifactId>
+			<version>1.1.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/de.tudarmstadt.ukp.wikipedia/de.tudarmstadt.ukp.wikipedia.parser -->
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.wikipedia</groupId>
+			<artifactId>de.tudarmstadt.ukp.wikipedia.parser</artifactId>
+			<version>1.1.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/de.tudarmstadt.ukp.wikipedia/de.tudarmstadt.ukp.wikipedia.revisionmachine -->
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.wikipedia</groupId>
+			<artifactId>de.tudarmstadt.ukp.wikipedia.revisionmachine</artifactId>
+			<version>1.1.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/de.tudarmstadt.ukp.wikipedia/de.tudarmstadt.ukp.wikipedia.mwdumper -->
+		<dependency>
+			<groupId>de.tudarmstadt.ukp.wikipedia</groupId>
+			<artifactId>de.tudarmstadt.ukp.wikipedia.mwdumper</artifactId>
+			<version>1.1.0</version>
+		</dependency>
+
+
+
+
+		<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-common -->
+		<dependency>
+			<groupId>org.glassfish.jersey.core</groupId>
+			<artifactId>jersey-common</artifactId>
+			<version>2.26-b03</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.containers/jersey-container-servlet-core -->
+		<dependency>
+			<groupId>org.glassfish.jersey.containers</groupId>
+			<artifactId>jersey-container-servlet-core</artifactId>
+			<version>2.26-b03</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.containers/jersey-container-jetty-http -->
+		<dependency>
+			<groupId>org.glassfish.jersey.containers</groupId>
+			<artifactId>jersey-container-jetty-http</artifactId>
+			<version>2.26-b03</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.containers/jersey-container-jdk-http -->
+		<dependency>
+			<groupId>org.glassfish.jersey.containers</groupId>
+			<artifactId>jersey-container-jdk-http</artifactId>
+			<version>2.26-b03</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.json/json -->
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20160810</version>
+		</dependency>
+
+
+
+
+		<!-- bliki -->
+		<dependency>
+			<groupId>info.bliki.wiki</groupId>
+			<artifactId>bliki-core</artifactId>
+			<version>3.0.19</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/info.bliki.wiki/bliki-addons -->
+		<dependency>
+			<groupId>info.bliki.wiki</groupId>
+			<artifactId>bliki-addons</artifactId>
+			<version>3.1.0</version>
+		</dependency>
+
+
+	</dependencies>
+	<repositories>
+		<repository>
+			<id>info-bliki-repository</id>
+			<url>http://gwtwiki.googlecode.com/svn/maven-repository/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+		</repository>
+	</repositories>
+</project>

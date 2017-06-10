@@ -1,0 +1,48 @@
+Topic, Languages, Maximum value, Length of L1, Length of L2, %L1, %L2, Diagonal>=2, Diagonal >=3, Diagonal>=4, Diagonal>=5
+Sacra Tunica,de.it,0.790569415042095,58,35,51.724137931034484,85.71428571428571,yes,yes,yes,yes
+Sacra Tunica,de.en,0.7071067811865475,58,53,6.896551724137931,7.547169811320755,yes,no,no,no
+Sacra Tunica,it.en,0.7506518906054691,35,53,5.714285714285714,3.7735849056603774,yes,no,no,no
+Valerio di Treviri,de.it,0.0,3,4,0.0,0.0,no,no,no,no
+Valerio di Treviri,de.en,0.0,3,10,0.0,0.0,no,no,no,no
+Valerio di Treviri,it.en,0.2964997266644405,4,10,50.0,20.0,yes,no,no,no
+Egberto di Treviri,de.it,1.0,18,10,44.44444444444444,80.0,yes,yes,yes,yes
+Egberto di Treviri,de.fr,0.5051814855409226,18,7,27.77777777777778,71.42857142857143,yes,yes,no,no
+Egberto di Treviri,de.en,0.4351941398892446,18,9,16.666666666666664,33.33333333333333,yes,yes,no,no
+Egberto di Treviri,it.fr,0.3563483225498992,10,7,50.0,71.42857142857143,yes,yes,yes,yes
+Egberto di Treviri,it.en,0.8660254037844387,10,9,60.0,77.77777777777779,yes,yes,yes,yes
+Egberto di Treviri,fr.en,0.75,7,9,100.0,77.77777777777779,yes,yes,yes,yes
+Gozzelino di Toul,it.fr,0.7559289460184544,6,8,66.66666666666666,50.0,yes,yes,yes,no
+Gozzelino di Toul,it.en,0.5916079783099616,6,7,83.33333333333334,71.42857142857143,yes,yes,no,no
+Gozzelino di Toul,fr.en,0.6674238124719146,8,7,62.5,71.42857142857143,yes,yes,yes,yes
+Goerico di Metz,it.fr,1.0,18,20,77.77777777777779,70.0,yes,yes,yes,yes
+Goerico di Metz,it.en,0.674199862463242,18,12,11.11111111111111,16.666666666666664,yes,no,no,no
+Goerico di Metz,fr.en,0.33806170189140655,20,12,10.0,16.666666666666664,yes,no,no,no
+Colonna di Igel,de.it,1.0,48,40,68.75,82.5,yes,yes,yes,yes
+Chiesa di Nostra Signora (Treviri),de.it,0.7252406676228423,41,33,73.17073170731707,90.9090909090909,yes,yes,yes,yes
+Chiesa di Nostra Signora (Treviri),de.fr,0.391924757669098,41,5,4.878048780487805,40.0,yes,no,no,no
+Chiesa di Nostra Signora (Treviri),it.fr,0.0,33,5,0.0,0.0,no,no,no,no
+Maiestas Domini,de.it,0.6240377207533828,20,13,55.00000000000001,84.61538461538461,yes,yes,yes,yes
+Maiestas Domini,de.en,0.0,20,34,0.0,0.0,no,no,no,no
+Maiestas Domini,it.en,0.0,13,34,0.0,0.0,no,no,no,no
+Aldetrude di Maubeuge,de.it,0.2727272727272727,11,3,18.181818181818183,66.66666666666666,yes,no,no,no
+Aldetrude di Maubeuge,de.fr,0.0,11,3,0.0,0.0,no,no,no,no
+Aldetrude di Maubeuge,it.fr,0.0,3,3,0.0,0.0,no,no,no,no
+Gerardo di Toul,it.en,0.0,16,8,0.0,0.0,no,no,no,no
+Duomo di Treviri,de.it,0.7276068751089989,146,20,8.904109589041095,65.0,yes,yes,yes,yes
+Duomo di Treviri,de.en,0.40451991747794525,146,13,2.054794520547945,23.076923076923077,yes,yes,no,no
+Duomo di Treviri,it.en,0.6761234037828131,20,13,15.0,23.076923076923077,yes,yes,no,no
+Materno di Colonia,de.it,0.629940788348712,16,26,50.0,30.76923076923077,yes,yes,yes,yes
+Materno di Colonia,de.fr,0.0,16,18,0.0,0.0,no,no,no,no
+Materno di Colonia,de.en,0.0,16,12,0.0,0.0,no,no,no,no
+Materno di Colonia,it.fr,0.6804138174397718,26,18,30.76923076923077,44.44444444444444,yes,yes,no,no
+Materno di Colonia,it.en,0.25819888974716115,26,12,7.6923076923076925,16.666666666666664,yes,no,no,no
+Materno di Colonia,fr.en,0.15789473684210523,18,12,11.11111111111111,16.666666666666664,yes,no,no,no
+Eucario di Treviri,de.it,0.7071067811865475,10,6,40.0,66.66666666666666,yes,yes,yes,no
+Eucario di Treviri,de.en,0.42562826537937437,10,29,20.0,6.896551724137931,yes,no,no,no
+Eucario di Treviri,it.en,0.0,6,29,0.0,0.0,no,no,no,no
+Massimino di Treviri,de.it,0.9128709291752769,16,13,75.0,92.3076923076923,yes,yes,yes,yes
+Massimino di Treviri,de.en,0.0,16,18,0.0,0.0,no,no,no,no
+Massimino di Treviri,it.en,0.20412414523193154,13,18,15.384615384615385,11.11111111111111,yes,no,no,no
+Reinilde di Saints,de.it,0.0,8,7,0.0,0.0,no,no,no,no
+Reinilde di Saints,de.en,0.5070925528371099,8,17,25.0,11.76470588235294,yes,no,no,no
+Reinilde di Saints,it.en,0.7112867591590193,7,17,85.71428571428571,35.294117647058826,yes,yes,yes,yes
